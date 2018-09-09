@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <title>Boolean Playground</title>
+ <style>
+ body { font-family: Georgia, serif; max-width: 520px; margin: 2rem auto; padding: 0 1rem; }
+ table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+ td, th { border: 1px solid #444; padding: 0.4rem 0.6rem; text-align: center; }
+ select, button { font-size: 1rem; margin: 0.25rem; }
+ </style>
+</head>
+<body>
+ <h1>Boolean Playground</h1>
+ <p>Pick a gate. Stare at truth. Pass digital logic.</p>
+ <label>Gate:
+ <select id="gate">
+ <option>AND</option>
+ <option>OR</option>
+ <option>XOR</option>
+ <option>NAND</option>
+ <option>NOR</option>
+ </select>
+ </label>
+ <table>
+ <thead><tr><th>A</th><th>B</th><th>Out</th></tr></thead>
+ <tbody id="rows"></tbody>
+ </table>
+ <script src="logic.js"></script>
+</body>
+</html>
