@@ -1,8 +1,8 @@
 # Boolean Playground
 
-Clicky **2-input logic gates** in the browser — digital logic practice without the IC trainer kit .
+Clicky **2-input logic gates** in the browser.
 
-AND, OR, XOR, NAND — truth table updates live.
+AND, OR, XOR, NAND, NOR — truth table updates live. Digital logic practice without the hardware kit.
 
 Open `index.html` in a browser.
 
